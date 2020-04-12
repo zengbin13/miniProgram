@@ -1,0 +1,12 @@
+<!--components/z-goods-item/z-goods-item.wxml-->
+<view class="goods-item">
+  <image src="{{goodsItemData.show.img}}" class="item-img"></image>
+  <view class="item-info">
+    <text class="title">{{goodsItemData.title}}</text>
+    <view class="price">
+      <text class="icon">￥</text>
+      <text>{{goodsItemData.price}}</text>
+      <text class="sale">{{goodsItemData.sale > 9999 ? "9999+" : goodsItemData.sale}} 人购买</text>
+    </view>
+  </view>
+</view>

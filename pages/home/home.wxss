@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+.popular {
+  text-align: center;
+  font-size: 36rpx;
+  margin-top: 40rpx;
+}

@@ -1,0 +1,38 @@
+/* components/z-goods-item/z-goods-item.wxss */
+.goods-item {
+  overflow: hidden;
+  height: 550rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.item-img {
+  height: 400rpx;
+  width: 100%;
+  object-fit: cover;
+}
+.item-info {
+  flex: 1;
+  background-color: #fff;
+  padding: 8rpx 20rpx 0;
+  line-height: 40rpx;
+}
+.item-info .title {
+  display: block;
+  font-size: 28rpx;
+  height: 80rpx;
+  overflow: hidden;
+}
+.item-info .price {
+  color: #ff3f78;
+  padding-top: 10rpx;
+}
+.item-info .price .icon {
+  font-size: 26rpx;
+}
+.item-info .price .sale {
+  display: inline-block;
+  padding-left: 10rpx;
+  font-size: 24rpx;
+  color: #666;
+}

@@ -1,31 +1,55 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/about/about"
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff3f78",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "是个程序"
+    "navigationBarTitleText": "仿·蘑菇街",
+    "onReachBottomDistance": 300
   },
   "tabBar": {
     "color": "#707070",
     "selectedColor": "#ff3f78",
+    "backgroundColor": "#fff",
     "borderStyle": "black",
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "/assets/icon/home.png",
-        "selectedIconPath": "/assets/icon/home_active.png"
+        "iconPath": "assets/icon/home.png",
+        "selectedIconPath": "assets/icon/home_active.png"
       },
       {
-        "pagePath": "pages/about/about",
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/icon/category.png",
+        "selectedIconPath": "assets/icon/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/icon/cart.png",
+        "selectedIconPath": "assets/icon/cart_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
         "text": "关于",
-        "iconPath": "/assets/icon/about.png",
-        "selectedIconPath": "/assets/icon/about_active.png"
+        "iconPath": "assets/icon/profile.png",
+        "selectedIconPath": "assets/icon/profile_active.png"
       }
     ]
-  }
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap6.json"
 }

@@ -1,0 +1,19 @@
+/* pages/home/children/z-recomend/z-recommend.wxss */
+.recommend {
+  display: flex;
+  justify-content: space-around;
+  padding: 40rpx 0;
+  border-bottom: 24rpx solid #f4f4f4;
+}
+.recommend-item {
+  /* flex: 1; */
+  text-align: center;
+  font-size: 28rpx;
+}
+.recommend-item image {
+  width: 140rpx;
+  height: 140rpx;
+}
+.recommend-item view {
+  padding-top: 14rpx;
+}

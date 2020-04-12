@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "z-swiper" : "/components/z-swiper/z-swiper",
+    "z-recommend" : "./children/z-recommend/z-recommend",
+    "z-tab-control": "/components/z-tab-control/z-tab-control",
+    "z-goods-container": "/components/z-goods-container/z-goods-container",
+    "z-back-top": "/components/z-back-top/z-back-top"
+  }
+}

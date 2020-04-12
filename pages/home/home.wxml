@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+
+<!-- 轮播图部分 -->
+<z-swiper swiper-list="{{swiperList}}"></z-swiper>
+
+<!-- 推荐数据部分 -->
+<z-recommend recommend-list="{{recommendList}}"></z-recommend>
+
+<!-- 本周流行部分 -->
+<view>
+  <view class="popular">本周流行</view>
+  <z-recommend recommend-list="{{recommendList}}"></z-recommend>
+</view>
+
+<!-- tab-control -->
+<z-tab-control 
+tab-list="{{tabList}}"
+bind:tab-click="handleTabClick"
+></z-tab-control>
+
+<!-- 商品内容 -->
+<z-goods-container goods-list="{{goods[currentType].list}}"></z-goods-container>
+
+<!-- 回到顶部组件 -->
+<z-back-top wx:if="{{isShowBackTop}}"></z-back-top>

@@ -1,0 +1,10 @@
+/* components/z-back-top/z-back-top.wxss */
+.back-top {
+  width:80rpx;
+  height: 80rpx;
+  background-color: rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 80rpx;
+  right: 60rpx;
+}

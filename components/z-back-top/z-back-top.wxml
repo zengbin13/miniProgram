@@ -1,0 +1,4 @@
+<!--components/z-back-top/z-back-top.wxml-->
+<view bindtap="handleBackTop">
+  <image src="/assets/icon/back-top.png" class="back-top"></image>
+</view>

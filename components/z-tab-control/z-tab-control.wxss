@@ -1,0 +1,20 @@
+/* components/z-tab-control/z-tab-control.wxss */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 20;
+}
+.tab-item {
+  letter-spacing: 4rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+  padding: 0 8rpx;
+}
+.tab-item-active {
+  color: #ff3f78;
+  border-bottom: 4rpx solid #ff3f78;
+}

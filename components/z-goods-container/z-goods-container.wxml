@@ -1,0 +1,7 @@
+<!--components/z-goods-container/z-goods-container.wxml-->
+
+<view class="goods-container">
+  <block wx:for="{{goodsList}}" wx:key="index">
+    <z-goods-item goods-item-data="{{item}}" class="goods-item"></z-goods-item>
+  </block>
+</view>
